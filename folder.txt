@@ -1,0 +1,24 @@
+image-service/
+│── app.js
+│── package.json
+│── .env
+│
+├── config/
+│   └── db.js
+│
+├── middleware/
+│   └── auth.js
+│
+├── models/
+│   ├── userModel.js
+│   └── imageModel.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   └── imageRoutes.js
+│
+├── controllers/
+│   ├── authController.js
+│   └── imageController.js
+│
+├── uploads/   # temp storage for images (use S3 in production)
